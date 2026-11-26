@@ -1,0 +1,66 @@
+{
+  "topic": "PacmanArchShort",
+  "provider": "cit",
+  "voice": "Quốc Tuấn",
+  "speed": 1.05,
+  "totalScenes": 6,
+  "totalDurationFrames": 1172,
+  "totalDurationSec": 39.1,
+  "scenes": [
+    {
+      "id": "step1_basics",
+      "text": "Pacman là trình quản lý gói của Arch Linux, giúp bạn cài đặt, nâng cấp, tìm kiếm, xem thông tin và gỡ ứng dụng.",
+      "audioPath": "audio/PacmanArchShort/step1_basics.wav",
+      "sizeBytes": 585340,
+      "estimatedDurationSec": 6.1,
+      "durationInFrames": 193,
+      "words": []
+    },
+    {
+      "id": "step2_update",
+      "text": "Để nâng cấp toàn bộ hệ thống, dùng sudo pacman -Syu, đừng chỉ làm mới danh sách kho, vì các gói có thể bị lệch phiên bản.",
+      "audioPath": "audio/PacmanArchShort/step2_update.wav",
+      "sizeBytes": 621912,
+      "estimatedDurationSec": 6.48,
+      "durationInFrames": 205,
+      "words": []
+    },
+    {
+      "id": "step3_search_install",
+      "text": "Muốn tìm ứng dụng trong kho, dùng pacman -Ss, khi đã có đúng tên gói, dùng sudo pacman -S để cài đặt.",
+      "audioPath": "audio/PacmanArchShort/step3_search_install.wav",
+      "sizeBytes": 563398,
+      "estimatedDurationSec": 5.87,
+      "durationInFrames": 187,
+      "words": []
+    },
+    {
+      "id": "step4_inspect",
+      "text": "pacman -Qi cho biết chi tiết từng gói, còn pacman -Qdt giúp tìm những gói phụ thuộc không còn cần thiết.",
+      "audioPath": "audio/PacmanArchShort/step4_inspect.wav",
+      "sizeBytes": 548770,
+      "estimatedDurationSec": 5.71,
+      "durationInFrames": 182,
+      "words": []
+    },
+    {
+      "id": "step5_remove",
+      "text": "Muốn gỡ ứng dụng cùng các phần phụ thuộc không còn cần, dùng sudo pacman -Rns, rồi xem kỹ danh sách trước khi xác nhận.",
+      "audioPath": "audio/PacmanArchShort/step5_remove.wav",
+      "sizeBytes": 621912,
+      "estimatedDurationSec": 6.48,
+      "durationInFrames": 205,
+      "words": []
+    },
+    {
+      "id": "step6_cache",
+      "text": "Dùng paccache -r để xóa các phiên bản cũ, mặc định vẫn giữ lại ba bản, đừng dọn sạch nếu bạn cần cài lại hoặc quay về bản trước.",
+      "audioPath": "audio/PacmanArchShort/step6_cache.wav",
+      "sizeBytes": 607284,
+      "estimatedDurationSec": 6.32,
+      "durationInFrames": 200,
+      "words": []
+    }
+  ],
+  "generatedAt": "2026-11-26T00:55:20.936Z"
+}

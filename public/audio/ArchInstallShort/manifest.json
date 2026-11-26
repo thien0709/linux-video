@@ -1,0 +1,66 @@
+{
+  "topic": "ArchInstallShort",
+  "provider": "cit",
+  "voice": "Quốc Tuấn",
+  "speed": 1.05,
+  "totalScenes": 6,
+  "totalDurationFrames": 1604,
+  "totalDurationSec": 53.5,
+  "scenes": [
+    {
+      "id": "step1_prepare",
+      "text": "Muốn thử Arch Linux nhưng ngại cài đặt toàn văn bản? Archinstall giúp quy trình dễ tiếp cận hơn. Chuẩn bị ảnh ISO và máy tính hoặc máy ảo; máy ảo phù hợp để thử nghiệm.",
+      "audioPath": "audio/ArchInstallShort/step1_prepare.wav",
+      "sizeBytes": 848656,
+      "estimatedDurationSec": 8.84,
+      "durationInFrames": 276,
+      "words": []
+    },
+    {
+      "id": "step2_boot",
+      "text": "Khởi động bằng ảnh ISO Arch Linux. Trên máy thật, trước tiên ghi ISO vào USB có khả năng khởi động. Chờ tới khi xuất hiện dấu nhắc bash root.",
+      "audioPath": "audio/ArchInstallShort/step2_boot.wav",
+      "sizeBytes": 731626,
+      "estimatedDurationSec": 7.62,
+      "durationInFrames": 239,
+      "words": []
+    },
+    {
+      "id": "step3_launch",
+      "text": "Tại dấu nhắc root, chạy archinstall. Menu văn bản hiện ra; dùng phím mũi tên để di chuyển, phím cách để chọn, rồi nhấn Enter xác nhận.",
+      "audioPath": "audio/ArchInstallShort/step3_launch.wav",
+      "sizeBytes": 716998,
+      "estimatedDurationSec": 7.47,
+      "durationInFrames": 235,
+      "words": []
+    },
+    {
+      "id": "step4_configure",
+      "text": "Chọn mirror gần bạn. Với ổ đĩa, chọn bố cục mặc định, kiểm tra đúng ổ đích và chọn ext4. Đặt mật khẩu root mạnh, tạo user có quyền superuser, rồi chọn desktop và greeter.",
+      "audioPath": "audio/ArchInstallShort/step4_configure.wav",
+      "sizeBytes": 951056,
+      "estimatedDurationSec": 9.9,
+      "durationInFrames": 307,
+      "words": []
+    },
+    {
+      "id": "step5_network",
+      "text": "Chọn PipeWire, NetworkManager và múi giờ phù hợp. Có thể thêm gói như Firefox bây giờ hoặc cài sau. Rà soát lại ổ đĩa cùng các thiết lập, rồi chọn Install.",
+      "audioPath": "audio/ArchInstallShort/step5_network.wav",
+      "sizeBytes": 855970,
+      "estimatedDurationSec": 8.91,
+      "durationInFrames": 278,
+      "words": []
+    },
+    {
+      "id": "step6_reboot",
+      "text": "Khi được hỏi về chroot, chọn không. Gõ reboot; tháo USB trên máy thật hoặc bỏ ISO khỏi máy ảo. Khởi động lại, rồi đăng nhập desktop Arch Linux vừa cài.",
+      "audioPath": "audio/ArchInstallShort/step6_reboot.wav",
+      "sizeBytes": 826712,
+      "estimatedDurationSec": 8.61,
+      "durationInFrames": 269,
+      "words": []
+    }
+  ],
+  "generatedAt": "2026-11-26T02:58:58.535Z"
+}
